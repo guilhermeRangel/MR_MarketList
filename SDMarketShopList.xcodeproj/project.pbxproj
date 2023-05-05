@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E52630E08E3BB2E6AE800B /* Pods_SDMarketShopList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85477F4D471544CC065116A /* Pods_SDMarketShopList.framework */; };
+		5B34BAD62A05832900EA7548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAD52A05832900EA7548 /* AppDelegate.swift */; };
+		5B34BAD82A05832900EA7548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAD72A05832900EA7548 /* SceneDelegate.swift */; };
+		5B34BADA2A05832900EA7548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAD92A05832900EA7548 /* ViewController.swift */; };
+		5B34BADD2A05832900EA7548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B34BADB2A05832900EA7548 /* Main.storyboard */; };
+		5B34BAE02A05832900EA7548 /* SDMarketShopList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BADE2A05832900EA7548 /* SDMarketShopList.xcdatamodeld */; };
+		5B34BAE22A05832B00EA7548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B34BAE12A05832B00EA7548 /* Assets.xcassets */; };
+		5B34BAE52A05832B00EA7548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B34BAE32A05832B00EA7548 /* LaunchScreen.storyboard */; };
+		5B34BAF02A05832C00EA7548 /* SDMarketShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAEF2A05832C00EA7548 /* SDMarketShopListTests.swift */; };
+		5B34BAFA2A05832C00EA7548 /* SDMarketShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAF92A05832C00EA7548 /* SDMarketShopListUITests.swift */; };
+		5B34BAFC2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */; };
+		5BB059B82A05891B004339E3 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB059B72A05891B004339E3 /* MyCollectionViewCell.swift */; };
+		64288C1EB5A59BE693EE53F0 /* Pods_SDMarketShopListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A841704FE29E73E3B04AA9A /* Pods_SDMarketShopListTests.framework */; };
+		C1A88368C4A1A04CE777F21C /* Pods_SDMarketShopList_SDMarketShopListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119B786E60324DC061F6734 /* Pods_SDMarketShopList_SDMarketShopListUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B34BAEC2A05832C00EA7548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B34BACA2A05832800EA7548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B34BAD12A05832800EA7548;
+			remoteInfo = SDMarketShopList;
+		};
+		5B34BAF62A05832C00EA7548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B34BACA2A05832800EA7548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B34BAD12A05832800EA7548;
+			remoteInfo = SDMarketShopList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A841704FE29E73E3B04AA9A /* Pods_SDMarketShopListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDMarketShopListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2086954DA14C910F332F27 /* Pods-SDMarketShopList-SDMarketShopListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopList-SDMarketShopListUITests.debug.xcconfig"; path = "Target Support Files/Pods-SDMarketShopList-SDMarketShopListUITests/Pods-SDMarketShopList-SDMarketShopListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		315D58B9CEE535270A5ED331 /* Pods-SDMarketShopList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopList.debug.xcconfig"; path = "Target Support Files/Pods-SDMarketShopList/Pods-SDMarketShopList.debug.xcconfig"; sourceTree = "<group>"; };
+		5B34BAD22A05832900EA7548 /* SDMarketShopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDMarketShopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B34BAD52A05832900EA7548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B34BAD72A05832900EA7548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B34BAD92A05832900EA7548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B34BADC2A05832900EA7548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B34BADF2A05832900EA7548 /* SDMarketShopList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SDMarketShopList.xcdatamodel; sourceTree = "<group>"; };
+		5B34BAE12A05832B00EA7548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B34BAE42A05832B00EA7548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B34BAE62A05832B00EA7548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B34BAEB2A05832C00EA7548 /* SDMarketShopListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDMarketShopListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B34BAEF2A05832C00EA7548 /* SDMarketShopListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMarketShopListTests.swift; sourceTree = "<group>"; };
+		5B34BAF52A05832C00EA7548 /* SDMarketShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDMarketShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B34BAF92A05832C00EA7548 /* SDMarketShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMarketShopListUITests.swift; sourceTree = "<group>"; };
+		5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMarketShopListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BB059B72A05891B004339E3 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		A119B786E60324DC061F6734 /* Pods_SDMarketShopList_SDMarketShopListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDMarketShopList_SDMarketShopListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AD41977E8C3C0D3A04EDE3 /* Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig"; path = "Target Support Files/Pods-SDMarketShopList-SDMarketShopListUITests/Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDE34F53A921377102966D67 /* Pods-SDMarketShopListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopListTests.release.xcconfig"; path = "Target Support Files/Pods-SDMarketShopListTests/Pods-SDMarketShopListTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFCC23885FC683D820DFEBB0 /* Pods-SDMarketShopListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopListTests.debug.xcconfig"; path = "Target Support Files/Pods-SDMarketShopListTests/Pods-SDMarketShopListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F052D5AD7CBEB9E0E1E15AB9 /* Pods-SDMarketShopList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopList.release.xcconfig"; path = "Target Support Files/Pods-SDMarketShopList/Pods-SDMarketShopList.release.xcconfig"; sourceTree = "<group>"; };
+		F85477F4D471544CC065116A /* Pods_SDMarketShopList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDMarketShopList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B34BACF2A05832800EA7548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E52630E08E3BB2E6AE800B /* Pods_SDMarketShopList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B34BAE82A05832C00EA7548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64288C1EB5A59BE693EE53F0 /* Pods_SDMarketShopListTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B34BAF22A05832C00EA7548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A88368C4A1A04CE777F21C /* Pods_SDMarketShopList_SDMarketShopListUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B34BAC92A05832800EA7548 = {
+			isa = PBXGroup;
+			children = (
+				5B34BAD42A05832900EA7548 /* SDMarketShopList */,
+				5B34BAEE2A05832C00EA7548 /* SDMarketShopListTests */,
+				5B34BAF82A05832C00EA7548 /* SDMarketShopListUITests */,
+				5B34BAD32A05832900EA7548 /* Products */,
+				FD3BC64C452BBCE1AB12DC65 /* Pods */,
+				A64BDF72CF7F026725F600F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B34BAD32A05832900EA7548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B34BAD22A05832900EA7548 /* SDMarketShopList.app */,
+				5B34BAEB2A05832C00EA7548 /* SDMarketShopListTests.xctest */,
+				5B34BAF52A05832C00EA7548 /* SDMarketShopListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B34BAD42A05832900EA7548 /* SDMarketShopList */ = {
+			isa = PBXGroup;
+			children = (
+				5B34BAD52A05832900EA7548 /* AppDelegate.swift */,
+				5B34BAD72A05832900EA7548 /* SceneDelegate.swift */,
+				5B34BAD92A05832900EA7548 /* ViewController.swift */,
+				5B34BADB2A05832900EA7548 /* Main.storyboard */,
+				5B34BAE12A05832B00EA7548 /* Assets.xcassets */,
+				5B34BAE32A05832B00EA7548 /* LaunchScreen.storyboard */,
+				5B34BAE62A05832B00EA7548 /* Info.plist */,
+				5B34BADE2A05832900EA7548 /* SDMarketShopList.xcdatamodeld */,
+				5BB059B72A05891B004339E3 /* MyCollectionViewCell.swift */,
+			);
+			path = SDMarketShopList;
+			sourceTree = "<group>";
+		};
+		5B34BAEE2A05832C00EA7548 /* SDMarketShopListTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B34BAEF2A05832C00EA7548 /* SDMarketShopListTests.swift */,
+			);
+			path = SDMarketShopListTests;
+			sourceTree = "<group>";
+		};
+		5B34BAF82A05832C00EA7548 /* SDMarketShopListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B34BAF92A05832C00EA7548 /* SDMarketShopListUITests.swift */,
+				5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */,
+			);
+			path = SDMarketShopListUITests;
+			sourceTree = "<group>";
+		};
+		A64BDF72CF7F026725F600F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85477F4D471544CC065116A /* Pods_SDMarketShopList.framework */,
+				A119B786E60324DC061F6734 /* Pods_SDMarketShopList_SDMarketShopListUITests.framework */,
+				0A841704FE29E73E3B04AA9A /* Pods_SDMarketShopListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD3BC64C452BBCE1AB12DC65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315D58B9CEE535270A5ED331 /* Pods-SDMarketShopList.debug.xcconfig */,
+				F052D5AD7CBEB9E0E1E15AB9 /* Pods-SDMarketShopList.release.xcconfig */,
+				1F2086954DA14C910F332F27 /* Pods-SDMarketShopList-SDMarketShopListUITests.debug.xcconfig */,
+				B0AD41977E8C3C0D3A04EDE3 /* Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig */,
+				DFCC23885FC683D820DFEBB0 /* Pods-SDMarketShopListTests.debug.xcconfig */,
+				CDE34F53A921377102966D67 /* Pods-SDMarketShopListTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B34BAD12A05832800EA7548 /* SDMarketShopList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B34BAFF2A05832C00EA7548 /* Build configuration list for PBXNativeTarget "SDMarketShopList" */;
+			buildPhases = (
+				94AD69A64B6F15C027A02822 /* [CP] Check Pods Manifest.lock */,
+				5B34BACE2A05832800EA7548 /* Sources */,
+				5B34BACF2A05832800EA7548 /* Frameworks */,
+				5B34BAD02A05832800EA7548 /* Resources */,
+				139B88DC6B5E73EF1BAEF89B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDMarketShopList;
+			productName = SDMarketShopList;
+			productReference = 5B34BAD22A05832900EA7548 /* SDMarketShopList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B34BAEA2A05832C00EA7548 /* SDMarketShopListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B34BB022A05832C00EA7548 /* Build configuration list for PBXNativeTarget "SDMarketShopListTests" */;
+			buildPhases = (
+				7281256B37282E97395277D8 /* [CP] Check Pods Manifest.lock */,
+				5B34BAE72A05832C00EA7548 /* Sources */,
+				5B34BAE82A05832C00EA7548 /* Frameworks */,
+				5B34BAE92A05832C00EA7548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B34BAED2A05832C00EA7548 /* PBXTargetDependency */,
+			);
+			name = SDMarketShopListTests;
+			productName = SDMarketShopListTests;
+			productReference = 5B34BAEB2A05832C00EA7548 /* SDMarketShopListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B34BAF42A05832C00EA7548 /* SDMarketShopListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B34BB052A05832C00EA7548 /* Build configuration list for PBXNativeTarget "SDMarketShopListUITests" */;
+			buildPhases = (
+				38A83E1898E9254E304A219A /* [CP] Check Pods Manifest.lock */,
+				5B34BAF12A05832C00EA7548 /* Sources */,
+				5B34BAF22A05832C00EA7548 /* Frameworks */,
+				5B34BAF32A05832C00EA7548 /* Resources */,
+				B4723E170320A903781DA7D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B34BAF72A05832C00EA7548 /* PBXTargetDependency */,
+			);
+			name = SDMarketShopListUITests;
+			productName = SDMarketShopListUITests;
+			productReference = 5B34BAF52A05832C00EA7548 /* SDMarketShopListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B34BACA2A05832800EA7548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5B34BAD12A05832800EA7548 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5B34BAEA2A05832C00EA7548 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5B34BAD12A05832800EA7548;
+					};
+					5B34BAF42A05832C00EA7548 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5B34BAD12A05832800EA7548;
+					};
+				};
+			};
+			buildConfigurationList = 5B34BACD2A05832800EA7548 /* Build configuration list for PBXProject "SDMarketShopList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B34BAC92A05832800EA7548;
+			productRefGroup = 5B34BAD32A05832900EA7548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B34BAD12A05832800EA7548 /* SDMarketShopList */,
+				5B34BAEA2A05832C00EA7548 /* SDMarketShopListTests */,
+				5B34BAF42A05832C00EA7548 /* SDMarketShopListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B34BAD02A05832800EA7548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B34BAE52A05832B00EA7548 /* LaunchScreen.storyboard in Resources */,
+				5B34BAE22A05832B00EA7548 /* Assets.xcassets in Resources */,
+				5B34BADD2A05832900EA7548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B34BAE92A05832C00EA7548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B34BAF32A05832C00EA7548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139B88DC6B5E73EF1BAEF89B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDMarketShopList/Pods-SDMarketShopList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDMarketShopList/Pods-SDMarketShopList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDMarketShopList/Pods-SDMarketShopList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38A83E1898E9254E304A219A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDMarketShopList-SDMarketShopListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7281256B37282E97395277D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDMarketShopListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AD69A64B6F15C027A02822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDMarketShopList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4723E170320A903781DA7D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDMarketShopList-SDMarketShopListUITests/Pods-SDMarketShopList-SDMarketShopListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDMarketShopList-SDMarketShopListUITests/Pods-SDMarketShopList-SDMarketShopListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDMarketShopList-SDMarketShopListUITests/Pods-SDMarketShopList-SDMarketShopListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B34BACE2A05832800EA7548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B34BADA2A05832900EA7548 /* ViewController.swift in Sources */,
+				5BB059B82A05891B004339E3 /* MyCollectionViewCell.swift in Sources */,
+				5B34BAD62A05832900EA7548 /* AppDelegate.swift in Sources */,
+				5B34BAE02A05832900EA7548 /* SDMarketShopList.xcdatamodeld in Sources */,
+				5B34BAD82A05832900EA7548 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B34BAE72A05832C00EA7548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B34BAF02A05832C00EA7548 /* SDMarketShopListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B34BAF12A05832C00EA7548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B34BAFA2A05832C00EA7548 /* SDMarketShopListUITests.swift in Sources */,
+				5B34BAFC2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B34BAED2A05832C00EA7548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B34BAD12A05832800EA7548 /* SDMarketShopList */;
+			targetProxy = 5B34BAEC2A05832C00EA7548 /* PBXContainerItemProxy */;
+		};
+		5B34BAF72A05832C00EA7548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B34BAD12A05832800EA7548 /* SDMarketShopList */;
+			targetProxy = 5B34BAF62A05832C00EA7548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B34BADB2A05832900EA7548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B34BADC2A05832900EA7548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B34BAE32A05832B00EA7548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B34BAE42A05832B00EA7548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B34BAFD2A05832C00EA7548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B34BAFE2A05832C00EA7548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B34BB002A05832C00EA7548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315D58B9CEE535270A5ED331 /* Pods-SDMarketShopList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYNC5NT5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDMarketShopList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rangel.mestre.SDMarketShopList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B34BB012A05832C00EA7548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F052D5AD7CBEB9E0E1E15AB9 /* Pods-SDMarketShopList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYNC5NT5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDMarketShopList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rangel.mestre.SDMarketShopList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B34BB032A05832C00EA7548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCC23885FC683D820DFEBB0 /* Pods-SDMarketShopListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYNC5NT5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rangel.mestre.SDMarketShopListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDMarketShopList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SDMarketShopList";
+			};
+			name = Debug;
+		};
+		5B34BB042A05832C00EA7548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE34F53A921377102966D67 /* Pods-SDMarketShopListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYNC5NT5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rangel.mestre.SDMarketShopListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDMarketShopList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SDMarketShopList";
+			};
+			name = Release;
+		};
+		5B34BB062A05832C00EA7548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2086954DA14C910F332F27 /* Pods-SDMarketShopList-SDMarketShopListUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYNC5NT5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rangel.mestre.SDMarketShopListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDMarketShopList;
+			};
+			name = Debug;
+		};
+		5B34BB072A05832C00EA7548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AD41977E8C3C0D3A04EDE3 /* Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYNC5NT5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rangel.mestre.SDMarketShopListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDMarketShopList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B34BACD2A05832800EA7548 /* Build configuration list for PBXProject "SDMarketShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B34BAFD2A05832C00EA7548 /* Debug */,
+				5B34BAFE2A05832C00EA7548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B34BAFF2A05832C00EA7548 /* Build configuration list for PBXNativeTarget "SDMarketShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B34BB002A05832C00EA7548 /* Debug */,
+				5B34BB012A05832C00EA7548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B34BB022A05832C00EA7548 /* Build configuration list for PBXNativeTarget "SDMarketShopListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B34BB032A05832C00EA7548 /* Debug */,
+				5B34BB042A05832C00EA7548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B34BB052A05832C00EA7548 /* Build configuration list for PBXNativeTarget "SDMarketShopListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B34BB062A05832C00EA7548 /* Debug */,
+				5B34BB072A05832C00EA7548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B34BADE2A05832900EA7548 /* SDMarketShopList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B34BADF2A05832900EA7548 /* SDMarketShopList.xcdatamodel */,
+			);
+			currentVersion = 5B34BADF2A05832900EA7548 /* SDMarketShopList.xcdatamodel */;
+			path = SDMarketShopList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B34BACA2A05832800EA7548 /* Project object */;
+}
