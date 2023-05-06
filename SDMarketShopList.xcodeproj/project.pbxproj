@@ -18,7 +18,9 @@
 		5B34BAF02A05832C00EA7548 /* SDMarketShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAEF2A05832C00EA7548 /* SDMarketShopListTests.swift */; };
 		5B34BAFA2A05832C00EA7548 /* SDMarketShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAF92A05832C00EA7548 /* SDMarketShopListUITests.swift */; };
 		5B34BAFC2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */; };
-		5BB059B82A05891B004339E3 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB059B72A05891B004339E3 /* MyCollectionViewCell.swift */; };
+		5B7FF5362A05EFD8008375B5 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FF5352A05EFD8008375B5 /* ProductModel.swift */; };
+		5B7FF53A2A05F055008375B5 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FF5392A05F055008375B5 /* ProductCollectionViewCell.swift */; };
+		5BB059BA2A059A41004339E3 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB059B92A059A41004339E3 /* MyViewModel.swift */; };
 		64288C1EB5A59BE693EE53F0 /* Pods_SDMarketShopListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A841704FE29E73E3B04AA9A /* Pods_SDMarketShopListTests.framework */; };
 		C1A88368C4A1A04CE777F21C /* Pods_SDMarketShopList_SDMarketShopListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119B786E60324DC061F6734 /* Pods_SDMarketShopList_SDMarketShopListUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,7 +60,9 @@
 		5B34BAF52A05832C00EA7548 /* SDMarketShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDMarketShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B34BAF92A05832C00EA7548 /* SDMarketShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMarketShopListUITests.swift; sourceTree = "<group>"; };
 		5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMarketShopListUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5BB059B72A05891B004339E3 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B7FF5352A05EFD8008375B5 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		5B7FF5392A05F055008375B5 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BB059B92A059A41004339E3 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 		A119B786E60324DC061F6734 /* Pods_SDMarketShopList_SDMarketShopListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDMarketShopList_SDMarketShopListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AD41977E8C3C0D3A04EDE3 /* Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig"; path = "Target Support Files/Pods-SDMarketShopList-SDMarketShopListUITests/Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CDE34F53A921377102966D67 /* Pods-SDMarketShopListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopListTests.release.xcconfig"; path = "Target Support Files/Pods-SDMarketShopListTests/Pods-SDMarketShopListTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,15 +124,8 @@
 		5B34BAD42A05832900EA7548 /* SDMarketShopList */ = {
 			isa = PBXGroup;
 			children = (
-				5B34BAD52A05832900EA7548 /* AppDelegate.swift */,
-				5B34BAD72A05832900EA7548 /* SceneDelegate.swift */,
-				5B34BAD92A05832900EA7548 /* ViewController.swift */,
-				5B34BADB2A05832900EA7548 /* Main.storyboard */,
-				5B34BAE12A05832B00EA7548 /* Assets.xcassets */,
-				5B34BAE32A05832B00EA7548 /* LaunchScreen.storyboard */,
-				5B34BAE62A05832B00EA7548 /* Info.plist */,
-				5B34BADE2A05832900EA7548 /* SDMarketShopList.xcdatamodeld */,
-				5BB059B72A05891B004339E3 /* MyCollectionViewCell.swift */,
+				5B7FF5422A0601A9008375B5 /* App Sections */,
+				5B7FF5412A060159008375B5 /* Supporting Files */,
 			);
 			path = SDMarketShopList;
 			sourceTree = "<group>";
@@ -148,6 +145,79 @@
 				5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */,
 			);
 			path = SDMarketShopListUITests;
+			sourceTree = "<group>";
+		};
+		5B7FF53E2A060105008375B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BB059B92A059A41004339E3 /* MyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B7FF53F2A06012B008375B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B7FF5352A05EFD8008375B5 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B7FF5402A060140008375B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B7FF5452A0602D2008375B5 /* Cell */,
+				5B34BADB2A05832900EA7548 /* Main.storyboard */,
+				5B34BAD92A05832900EA7548 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B7FF5412A060159008375B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B34BADE2A05832900EA7548 /* SDMarketShopList.xcdatamodeld */,
+				5B34BAE62A05832B00EA7548 /* Info.plist */,
+				5B34BAE32A05832B00EA7548 /* LaunchScreen.storyboard */,
+				5B34BAE12A05832B00EA7548 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B7FF5422A0601A9008375B5 /* App Sections */ = {
+			isa = PBXGroup;
+			children = (
+				5B7FF5432A0601EA008375B5 /* Home */,
+				5B7FF5442A060273008375B5 /* CheckList */,
+				5B34BAD52A05832900EA7548 /* AppDelegate.swift */,
+				5B34BAD72A05832900EA7548 /* SceneDelegate.swift */,
+			);
+			path = "App Sections";
+			sourceTree = "<group>";
+		};
+		5B7FF5432A0601EA008375B5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5B7FF5442A060273008375B5 /* CheckList */ = {
+			isa = PBXGroup;
+			children = (
+				5B7FF5402A060140008375B5 /* View */,
+				5B7FF53E2A060105008375B5 /* ViewModel */,
+				5B7FF53F2A06012B008375B5 /* Model */,
+			);
+			path = CheckList;
+			sourceTree = "<group>";
+		};
+		5B7FF5452A0602D2008375B5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5B7FF5392A05F055008375B5 /* ProductCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A64BDF72CF7F026725F600F5 /* Frameworks */ = {
@@ -413,10 +483,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B34BADA2A05832900EA7548 /* ViewController.swift in Sources */,
-				5BB059B82A05891B004339E3 /* MyCollectionViewCell.swift in Sources */,
+				5BB059BA2A059A41004339E3 /* MyViewModel.swift in Sources */,
 				5B34BAD62A05832900EA7548 /* AppDelegate.swift in Sources */,
 				5B34BAE02A05832900EA7548 /* SDMarketShopList.xcdatamodeld in Sources */,
 				5B34BAD82A05832900EA7548 /* SceneDelegate.swift in Sources */,
+				5B7FF53A2A05F055008375B5 /* ProductCollectionViewCell.swift in Sources */,
+				5B7FF5362A05EFD8008375B5 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +668,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TYNC5NT5U5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SDMarketShopList/Info.plist;
+				INFOPLIST_FILE = "SDMarketShopList/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -625,7 +697,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TYNC5NT5U5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SDMarketShopList/Info.plist;
+				INFOPLIST_FILE = "SDMarketShopList/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
