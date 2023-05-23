@@ -36,5 +36,68 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7C084F3-23DF-49D7-9801-17B8C5424AE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SDMarketShopList/App Sections/CheckList/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "setupObservableItem()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7C084F3-23DF-49D7-9801-17B8C5424AE4 - 3de1f6646088a612"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDMarketShopList.ViewController.setupObservableItem() -&gt; ()"
+                  moduleName = "SDMarketShopList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guilherme.rangel/Documents/Desenvolvimento/MR_MarketList/SDMarketShopList/SDMarketShopList/App%20Sections/CheckList/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "131">
+               </Location>
+               <Location
+                  uuid = "B7C084F3-23DF-49D7-9801-17B8C5424AE4 - f90261fed132dd84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.IndexPath&gt;) -&gt; () in SDMarketShopList.ViewController.setupObservableItem() -&gt; ()"
+                  moduleName = "SDMarketShopList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guilherme.rangel/Documents/Desenvolvimento/MR_MarketList/SDMarketShopList/SDMarketShopList/App%20Sections/CheckList/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "193">
+               </Location>
+               <Location
+                  uuid = "B7C084F3-23DF-49D7-9801-17B8C5424AE4 - 3de1f6646088a612"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SDMarketShopList.ViewController.setupObservableItem() -&gt; ()"
+                  moduleName = "SDMarketShopList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guilherme.rangel/Documents/Desenvolvimento/MR_MarketList/SDMarketShopList/SDMarketShopList/App%20Sections/CheckList/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

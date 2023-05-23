@@ -10,25 +10,54 @@ import RxCocoa
 
 protocol DataViewModelProtocol {
     func didTapButton()
-    func removeItem(_ item: Int)
+    func removeItem()
 }
 
 class MyViewModel: DataViewModelProtocol {
+    let itemsArray: BehaviorRelay<[String]> = BehaviorRelay(value: [])
+ 
     
     let items: BehaviorRelay<[String]> = BehaviorRelay(value: [])
+    let title: BehaviorRelay<String> = BehaviorRelay(value: "Lista de Compras")
     
-    func fetchItems() {
-        let itemsArray = ["maionese", "ketchup-tomate","atum", "sardinha","pepino","mostarda","palmito","maionese", "ketchup-tomate","atum", "sardinha","pepino","mostarda","palmito"]
-        items.accept(itemsArray)
+    private let selectedIndexPathRelay = BehaviorRelay<IndexPath>(value: IndexPath(row: 0, section: 0))
+    
+    var selectedIndexPath: Observable<IndexPath> {
+        return selectedIndexPathRelay.asObservable()
     }
+    
+    
+    func updateSelectedIndexPath(_ indexPath: IndexPath) {
+        selectedIndexPathRelay.accept(indexPath)
+    }
+    init() {
+        fetchItems()
+    }
+    func fetchItems() {
+           let initialItems = ["maionese", "ketchup-tomate", "atum", "sardinha", "pepino",
+                               "mostarda", "palmito", "maionese", "ketchup-tomate", "atum",
+                               "sardinha", "pepino", "mostarda", "palmito", "empty-car"]
+           itemsArray.accept(initialItems)
+           items.accept(initialItems)
+       }
     
     func didTapButton() {
-        self.items.accept(items.value.reversed())
+        self.removeItem()
     }
     
-    func removeItem(_ item: Int) {
+    func removeItem() {
         var _items = self.items.value
-        _items.remove(at: item)
+        _items.remove(at: selectedIndexPathRelay.value.row)
         self.items.accept(_items)
+        setFirstPositionRelay()
     }
+    
+    func setFirstPositionRelay() {
+        updateSelectedIndexPath(IndexPath(row: 0, section: 0))
+    }
+    
+    func setTitle() {
+        self.title.accept(self.items.value[selectedIndexPathRelay.value.row].uppercased())
+    }
+    
 }

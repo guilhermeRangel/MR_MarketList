@@ -20,6 +20,7 @@
 		5B34BAFC2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */; };
 		5B7FF5362A05EFD8008375B5 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FF5352A05EFD8008375B5 /* ProductModel.swift */; };
 		5B7FF53A2A05F055008375B5 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7FF5392A05F055008375B5 /* ProductCollectionViewCell.swift */; };
+		5B8E55C02A1C60600004BD15 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E55BF2A1C60600004BD15 /* AlertViewController.swift */; };
 		5BB059BA2A059A41004339E3 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB059B92A059A41004339E3 /* MyViewModel.swift */; };
 		64288C1EB5A59BE693EE53F0 /* Pods_SDMarketShopListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A841704FE29E73E3B04AA9A /* Pods_SDMarketShopListTests.framework */; };
 		C1A88368C4A1A04CE777F21C /* Pods_SDMarketShopList_SDMarketShopListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119B786E60324DC061F6734 /* Pods_SDMarketShopList_SDMarketShopListUITests.framework */; };
@@ -62,6 +63,7 @@
 		5B34BAFB2A05832C00EA7548 /* SDMarketShopListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMarketShopListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5B7FF5352A05EFD8008375B5 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		5B7FF5392A05F055008375B5 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B8E55BF2A1C60600004BD15 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		5BB059B92A059A41004339E3 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 		A119B786E60324DC061F6734 /* Pods_SDMarketShopList_SDMarketShopListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDMarketShopList_SDMarketShopListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AD41977E8C3C0D3A04EDE3 /* Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig"; path = "Target Support Files/Pods-SDMarketShopList-SDMarketShopListUITests/Pods-SDMarketShopList-SDMarketShopListUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				5B7FF5452A0602D2008375B5 /* Cell */,
 				5B34BADB2A05832900EA7548 /* Main.storyboard */,
 				5B34BAD92A05832900EA7548 /* ViewController.swift */,
+				5B8E55BF2A1C60600004BD15 /* AlertViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				5B34BADA2A05832900EA7548 /* ViewController.swift in Sources */,
 				5BB059BA2A059A41004339E3 /* MyViewModel.swift in Sources */,
 				5B34BAD62A05832900EA7548 /* AppDelegate.swift in Sources */,
+				5B8E55C02A1C60600004BD15 /* AlertViewController.swift in Sources */,
 				5B34BAE02A05832900EA7548 /* SDMarketShopList.xcdatamodeld in Sources */,
 				5B34BAD82A05832900EA7548 /* SceneDelegate.swift in Sources */,
 				5B7FF53A2A05F055008375B5 /* ProductCollectionViewCell.swift in Sources */,

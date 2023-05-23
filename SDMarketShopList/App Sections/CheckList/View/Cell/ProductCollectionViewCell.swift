@@ -32,6 +32,19 @@ class ProductCollectionViewCell: UICollectionViewCell {
         return label
     }()
     
+    override var isSelected: Bool {
+         didSet {
+             if isSelected {
+                 let selectedView = UIView()
+                 selectedView.layer.cornerRadius = 20
+                 selectedView.backgroundColor = UIColor(named: "Selected-green")
+                 self.selectedBackgroundView = selectedView
+             } else {
+                 self.selectedBackgroundView = nil
+             }
+         }
+     }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         contentView.addSubview(imageView)
